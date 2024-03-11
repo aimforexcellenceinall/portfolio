@@ -4,7 +4,7 @@
 
 - React.js
 - Three.js
-- Email.js
+- EmailJS
 - Framer Motion
 - TailwindCSS
 
