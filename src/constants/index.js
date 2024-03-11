@@ -210,73 +210,61 @@ const projects = [
     repo: "https://github.com/aimforexcellenceinall/cat-tinder-frontend",
     demo: "https://cat-tinder-frontend-9lwp.onrender.com",
   },
-  // {
-  //   id: "project-2",
-  //   name: "Pig Latin Translator",
-  //   description:
-  //     "An English-to-Pig Latin translator for playful language exploration.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "react-blue",
-  //     },
-  //     {
-  //       name: "rails",
-  //       color: "rails-pink",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "css-blue",
-  //     },
-  //   ],
-  //   image: leaderboard,
-  //   repo: "https://github.com/aimforexcellenceinall/pig-latin",
-  //   demo: "https://github.com/aimforexcellenceinall/pig-latin",
-  // },
-  // {
-  //   id: "project-3",
-  //   name: "Treasure Hunt Game",
-  //   description: "An app where players navigate a grid to find hidden treasures.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "react-blue",
-  //     },
-  //     {
-  //       name: "rails",
-  //       color: "rails-pink",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "css-blue",
-  //     },
-  //   ],
-  //   image: math,
-  //   repo: "https://github.com/aimforexcellenceinall/treasure-hunt",
-  //   demo: "https://github.com/aimforexcellenceinall/treasure-hunt",
-  // },
-  // {
-  //   id: "project-4",
-  //   name: "Tic Tac Toe",
-  //   description: `A digital rendition of the classic two-player strategy game.`,
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "react-blue",
-  //     },
-  //     {
-  //       name: "rails",
-  //       color: "rails-pink",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "css-blue",
-  //     },
-  //   ],
-  //   image: movie,
-  //   repo: "https://github.com/aimforexcellenceinall/tic-tac-toe",
-  //   demo: "https://github.com/aimforexcellenceinall/tic-tac-toe",
-  // },
+  {
+    id: "project-2",
+    name: "Pig Latin Translator",
+    description:
+      "An English-to-Pig Latin translator for playful language exploration.",
+    tags: [
+      {
+        name: "react",
+        color: "react-blue",
+      },
+      {
+        name: "css",
+        color: "css-blue",
+      },
+    ],
+    image: leaderboard,
+    repo: "https://github.com/aimforexcellenceinall/pig-latin",
+    demo: "https://jeremiejoseph-pig-latin-translator.netlify.app",
+  },
+  {
+    id: "project-3",
+    name: "Treasure Hunt Game",
+    description: "An app where players navigate a grid to find hidden treasures.",
+    tags: [
+      {
+        name: "react",
+        color: "react-blue",
+      },
+      {
+        name: "css",
+        color: "css-blue",
+      },
+    ],
+    image: math,
+    repo: "https://github.com/aimforexcellenceinall/treasure-hunt",
+    demo: "https://jeremiejoseph-treasure-hunt.netlify.app",
+  },
+  {
+    id: "project-4",
+    name: "Tic Tac Toe",
+    description: `A digital rendition of the classic two-player strategy game.`,
+    tags: [
+      {
+        name: "react",
+        color: "react-blue",
+      },
+      {
+        name: "css",
+        color: "css-blue",
+      },
+    ],
+    image: movie,
+    repo: "https://github.com/aimforexcellenceinall/tic-tac-toe",
+    demo: "https://jeremiejoseph-tic-tac-toe.netlify.app",
+  },
   // {
   //   id: "project-5",
   //   name: "Text-based Game",
