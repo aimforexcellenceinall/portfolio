@@ -172,13 +172,6 @@ const experiences = [
     date: "Jul 2020 - Mar 2023",
   },
   {
-    title: "Professional Chauffeur",
-    company_name: "Independent",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Jul 2015 - Jul 2020",
-  },
-  {
     title: "Media Production Lead (MOS 25V)",
     company_name: "US Army",
     icon: microverse,
@@ -190,6 +183,28 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
+    name: "Kanji",
+    description: "A marketplace bringing unique collectibles, from art to historical artifacts, to everyone.",
+    tags: [
+      {
+        name: "react",
+        color: "react-blue",
+      },
+      {
+        name: "rails",
+        color: "rails-pink",
+      },
+      {
+        name: "css",
+        color: "css-blue",
+      },
+    ],
+    image: nyeusi,
+    repo: "https://github.com/RarityKanji/kanji-frontend",
+    demo: "https://kanji-frontend.onrender.com/",
+  },
+  {
+    id: "project-2",
     name: "Cat Tinder",
     description: "A playful matchmaking app for cats.",
     tags: [
@@ -211,7 +226,7 @@ const projects = [
     demo: "https://cat-tinder-frontend-9lwp.onrender.com",
   },
   {
-    id: "project-2",
+    id: "project-3",
     name: "Pig Latin Translator",
     description:
       "An English-to-Pig Latin translator for playful language exploration.",
@@ -230,7 +245,7 @@ const projects = [
     demo: "https://jeremiejoseph-pig-latin-translator.netlify.app",
   },
   {
-    id: "project-3",
+    id: "project-4",
     name: "Treasure Hunt Game",
     description: "An app where players navigate a grid to find hidden treasures.",
     tags: [
@@ -248,7 +263,7 @@ const projects = [
     demo: "https://jeremiejoseph-treasure-hunt.netlify.app",
   },
   {
-    id: "project-4",
+    id: "project-5",
     name: "Tic Tac Toe",
     description: `A digital rendition of the classic two-player strategy game.`,
     tags: [
@@ -265,29 +280,6 @@ const projects = [
     repo: "https://github.com/aimforexcellenceinall/tic-tac-toe",
     demo: "https://jeremiejoseph-tic-tac-toe.netlify.app",
   },
-  // {
-  //   id: "project-5",
-  //   name: "Text-based Game",
-  //   description:
-  //     "A monster-battle RPG focusing on team building and battles.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "react-blue",
-  //     },
-  //     {
-  //       name: "ruby",
-  //       color: "ruby-red",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "css-blue",
-  //     },
-  //   ],
-  //   image: nyeusi,
-  //   repo: "https://github.com/aimforexcellenceinall/text-based-pikachu-game",
-  //   demo: "https://github.com/aimforexcellenceinall/text-based-pikachu-game",
-  // },
 ];
 
 export { services, technologies, experiences, projects, socialProfiles };
